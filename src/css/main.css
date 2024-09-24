@@ -12,3 +12,44 @@ img,
 video {
   display: block;
 }
+
+.graphic {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  display: flex;
+}
+
+.result {
+  display: flex;
+  margin-left: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 302px;
+}
+
+p {
+  color: #000;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.jaune {
+  background-color: #ffcc2f;
+}
+
+.bleu {
+  background-color: #37d3d2;
+}
+
+.suisse .jaune {
+  width: 65%;
+}
+
+.suisse .bleu {
+  width: 35%;
+}
