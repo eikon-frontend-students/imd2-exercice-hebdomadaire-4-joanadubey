@@ -16,18 +16,24 @@ video {
 .graphic {
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
 }
 
 .bar {
   display: flex;
+  align-items: center;
 }
 
 .result {
   display: flex;
-  margin-left: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
   width: 302px;
+  gap: 2px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 p {
@@ -36,14 +42,25 @@ p {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
+  width: 100px;
 }
 
 .jaune {
   background-color: #ffcc2f;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
 }
 
 .bleu {
   background-color: #37d3d2;
+  border-radius: 0px 10px 10px 0px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .suisse .jaune {
@@ -52,4 +69,62 @@ p {
 
 .suisse .bleu {
   width: 35%;
+}
+
+.USA .jaune {
+  width: 51%;
+}
+
+.USA .bleu {
+  width: 49%;
+}
+
+.Europe .jaune {
+  width: 41%;
+}
+
+.Europe .bleu {
+  width: 59%;
+}
+
+.legende {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-left: 120px;
+  margin-right: 1306px;
+  width: 93px;
+  margin-top: 20px;
+  margin-left: 120px;
+  padding-left: 74px;
+  padding-right: 74px;
+}
+
+.legende-texte {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.carré-jaune {
+  width: 16px;
+  height: 16px;
+  background: #ffcc2f;
+}
+
+.carré-bleu {
+  width: 16px;
+  height: 16px;
+  background-color: #37d3d2;
+}
+
+.mobile {
+  display: flex;
+  gap: 10px;
+}
+
+.desktop {
+  display: flex;
+  gap: 10px;
 }
